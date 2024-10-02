@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tobbelem", "Tobbelem\Tobbel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "macskak", "macskak\macskak.csproj", "{93D884F6-7A4C-4B91-8A05-4516133DC0E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "valami", "valami\valami.csproj", "{5AAC5ACB-A62D-4AE4-B220-D228FE4304F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{93D884F6-7A4C-4B91-8A05-4516133DC0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93D884F6-7A4C-4B91-8A05-4516133DC0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93D884F6-7A4C-4B91-8A05-4516133DC0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AAC5ACB-A62D-4AE4-B220-D228FE4304F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AAC5ACB-A62D-4AE4-B220-D228FE4304F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AAC5ACB-A62D-4AE4-B220-D228FE4304F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AAC5ACB-A62D-4AE4-B220-D228FE4304F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

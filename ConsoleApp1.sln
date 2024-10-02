@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tobbelem", "Tobbelem\Tobbelem.csproj", "{DA82CEEE-1223-4C0C-86A8-5D4F27C63CDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "macskak", "macskak\macskak.csproj", "{93D884F6-7A4C-4B91-8A05-4516133DC0E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DA82CEEE-1223-4C0C-86A8-5D4F27C63CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA82CEEE-1223-4C0C-86A8-5D4F27C63CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA82CEEE-1223-4C0C-86A8-5D4F27C63CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D884F6-7A4C-4B91-8A05-4516133DC0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D884F6-7A4C-4B91-8A05-4516133DC0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D884F6-7A4C-4B91-8A05-4516133DC0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D884F6-7A4C-4B91-8A05-4516133DC0E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

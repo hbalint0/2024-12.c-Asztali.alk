@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shortform", "shortform\shor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if", "if\if.csproj", "{15B45FAC-AF3F-4C1F-8FD6-46AC75F43842}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "korhasab", "korhasab\korhasab.csproj", "{19275BFB-C15A-4422-82C3-EF9EC173FF39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{15B45FAC-AF3F-4C1F-8FD6-46AC75F43842}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15B45FAC-AF3F-4C1F-8FD6-46AC75F43842}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15B45FAC-AF3F-4C1F-8FD6-46AC75F43842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19275BFB-C15A-4422-82C3-EF9EC173FF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19275BFB-C15A-4422-82C3-EF9EC173FF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19275BFB-C15A-4422-82C3-EF9EC173FF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19275BFB-C15A-4422-82C3-EF9EC173FF39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

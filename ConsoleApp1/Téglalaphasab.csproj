@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{19275BFB-C15A-4422-82C3-EF9EC173FF39}</ProjectGuid>
+    <ProjectGuid>{4F311DA8-8D38-4030-88DD-535CC8BE26DD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>korhasab</RootNamespace>
-    <AssemblyName>korhasab</AssemblyName>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

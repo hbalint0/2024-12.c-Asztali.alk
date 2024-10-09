@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.34301.259
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{4F311DA8-8D38-4030-88DD-535CC8BE26DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Téglalaphasab", "ConsoleApp1\Téglalaphasab.csproj", "{4F311DA8-8D38-4030-88DD-535CC8BE26DD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tobbelem", "Tobbelem\Tobbelem.csproj", "{DA82CEEE-1223-4C0C-86A8-5D4F27C63CDC}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if", "if\if.csproj", "{15B45FAC-AF3F-4C1F-8FD6-46AC75F43842}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "korhasab", "korhasab\korhasab.csproj", "{19275BFB-C15A-4422-82C3-EF9EC173FF39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teglalap", "teglalap\teglalap.csproj", "{6D6522BE-24C0-4854-ABCE-73B0144F3445}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{19275BFB-C15A-4422-82C3-EF9EC173FF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19275BFB-C15A-4422-82C3-EF9EC173FF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19275BFB-C15A-4422-82C3-EF9EC173FF39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D6522BE-24C0-4854-ABCE-73B0144F3445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6522BE-24C0-4854-ABCE-73B0144F3445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6522BE-24C0-4854-ABCE-73B0144F3445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6522BE-24C0-4854-ABCE-73B0144F3445}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

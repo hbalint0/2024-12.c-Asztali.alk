@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace korhasab
 {
-    class kor
+    class teglalap
     {
         //Az osztály feladata a sugárból kiszámítja a kör kerületét, területét
         private double sugar,
             kerulet,
             terulet;
-        public kor(){ }
+        public teglalap(){ }
 
-        public kor(double r)
+        public teglalap(double r)
         {
             this.sugar = r;
         }

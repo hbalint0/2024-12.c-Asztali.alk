@@ -32,6 +32,8 @@ namespace Téglalaphasab
             this.boldal = boldal;
         }
         
+        public void Getaoldal
+        { }
 
 
         public void TeruletSzam()

@@ -23,6 +23,11 @@ namespace korhasab
             k2.SetTerulet();
             Console.WriteLine($"{k2.GetSugar()} sugarú téglalap kerülete {k2.GetKerulet()}, területe: {k2.GetTerulet()} ");
             #endregion EOf 2. objektum
+
+            #region kor2 hasznalata
+            kor2 k21 = new kor2(26);
+            Console.WriteLine($"A kör2 adatai: Sugár= {k21.getsugar()},\n Kerület= {k21.getkerulet()}\n Terület= {k21.getterulet()} ");
+            #endregion kor2
             Console.ReadKey();
         }
     }

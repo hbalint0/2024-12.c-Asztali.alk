@@ -12,6 +12,8 @@ namespace korhasab
         private double sugar,
             kerulet,
             terulet;
+
+        //Objektum példát hoz létre, konstruktor
         public teglalap(){ }
 
         public teglalap(double r)
@@ -19,6 +21,8 @@ namespace korhasab
             this.sugar = r;
         }
 
+        //metódus, van visszatérési érték
+        //formális és aktuális paraméter
         public void ReadSugar(double r)
         {
             this.sugar = r;

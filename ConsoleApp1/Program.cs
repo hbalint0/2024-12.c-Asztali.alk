@@ -15,8 +15,9 @@ namespace Téglalaphasab
             teglaszam.Readboldal(20);
             teglaszam.TeruletSzam();
             teglaszam.KeruletSzam();
+            Console.WriteLine($"{aoldal}");
             Console.WriteLine($"Kerület: {teglaszam.GetKerulet()}");
-            Console.WriteLine($"A terület: { teglaszam.GetTerulet()}");
+            Console.WriteLine($"Terület: { teglaszam.GetTerulet()}");
             Console.ReadKey();
         }
     }

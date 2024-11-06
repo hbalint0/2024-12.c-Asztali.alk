@@ -9,7 +9,7 @@ namespace korhasab
     class teglalap
     {
         //Az osztály feladata a sugárból kiszámítja a kör kerületét, területét
-        private double sugar,
+        protected double sugar,
             kerulet,
             terulet;
 

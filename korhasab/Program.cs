@@ -9,32 +9,69 @@ namespace korhasab
     class Program
     {
         static void Main(string[] args)
+         // Háromszög oldalainak tárolása
+        private double oldal1, oldal2, oldal3;
+
+        // Konstruktor
+        public HTipus(double oldal1, double oldal2, double oldal3)
         {
-            #region 1. objektum
-            teglalap k1 = new teglalap();
-            k1.ReadSugar(15.0);
-            k1.SetKerulet();
-            k1.SetTerulet();
-            Console.WriteLine($"{k1.GetSugar()} sugarú téglalap kerülete {k1.GetKerulet()}, területe: {k1.GetTerulet()} ");
-            #endregion EOf 1. objektum
-            #region 2.objektum
-            teglalap k2 = new teglalap(28.7);
-            k2.SetKerulet();
-            k2.SetTerulet();
-            Console.WriteLine($"{k2.GetSugar()} sugarú téglalap kerülete {k2.GetKerulet()}, területe: {k2.GetTerulet()} ");
-            #endregion EOf 2. objektum
-
-            #region kor2 hasznalata
-            kor2 k21 = new kor2(26);
-            Console.WriteLine($"A kör2 adatai: Sugár= {k21.getsugar()},\n Kerület= {k21.getkerulet()}\n Terület= {k21.getterulet()} ");
-            #endregion kor2
-
-
-            #region henger szamtias
-            henger h1 = new henger(15, 30);
-            Console.WriteLine($"\n A henger adatai: Sugara= {h1.GetSugar()},\n Magassága= {h1.getmagassag()},\n Alapterülete= {h1.GetTerulet()},\n Térfogata={h1.getterfogat()} ");
-            #endregion henger
-            Console.ReadKey();
+            this.oldal1 = oldal1;
+            this.oldal2 = oldal2;
+            this.oldal3 = oldal3;
         }
-    }
+
+        // Háromszög oldalainak érvényességi ellenőrzése
+        public bool EllenorizHaromszog()
+        {
+            // Háromszög-egyenlőtlenség
+            return (oldal1 + oldal2 > oldal3) && (oldal1 + oldal3 > oldal2) && (oldal2 + oldal3 > oldal1);
+        }
+
+        // Derékszögű háromszög ellenőrzése
+        public bool DerekszoguHaromszog()
+        {
+            double[] oldalak = { oldal1, oldal2, oldal3 };
+            Array.Sort(oldalak);  // Rendezés, hogy az átfogó a leghosszabb oldal legyen
+            return Math.Pow(oldalak[2], 2) == Math.Pow(oldalak[0], 2) + Math.Pow(oldalak[1], 2);
+        }
+
+        // Egyenlő szárú háromszög ellenőrzése
+        public bool EgyenloSzaruHaromszog()
+        {
+            return (oldal1 == oldal2 || oldal2 == oldal3 || oldal1 == oldal3);
+        }
+
+        // Egyenlő oldalú háromszög ellenőrzése
+        public bool EgyenloOldaluHaromszog()
+        {
+            return (oldal1 == oldal2 && oldal2 == oldal3);
+        }
+
+        // Kimenet generálása
+        public void Kiir()
+        {
+            if (!EllenorizHaromszog())
+            {
+                Console.WriteLine("Az adatok nem alkotnak háromszöget.");
+            }
+            else
+            {
+                Console.WriteLine("Az adatok megfelelnek egy háromszög oldalainak.");
+
+                if (DerekszoguHaromszog())
+                {
+                    Console.WriteLine("A háromszög derékszögű.");
+                }
+
+                if (EgyenloSzaruHaromszog())
+                {
+                    Console.WriteLine("A háromszög egyenlő szárú.");
+                }
+
+                if (EgyenloOldaluHaromszog())
+                {
+                    Console.WriteLine("A háromszög egyenlő oldalú.");
+                }
+            }
+        }
 }

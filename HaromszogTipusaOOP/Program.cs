@@ -25,8 +25,13 @@ namespace HaromszogTipusaOOP
             Console.WriteLine($"Egyenlő oldalú háromszög: {haromszog.EgyenloOldaluHaromszog()}");
             Console.WriteLine($"Terület: {haromszog.Terulet()}");
 
+            HTipus k = new HTipus();
+            k.KivKezNincs();
+            k.KivKezAlt();
+
             Console.ReadLine(); // Hozzáadva, hogy a konzolablak nyitva maradjon
         }
+        
     }
 }
 

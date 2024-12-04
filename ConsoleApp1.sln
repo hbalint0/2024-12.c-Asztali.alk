@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teglalap", "teglalap\teglal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaromszogTipusaOOP", "HaromszogTipusaOOP\HaromszogTipusaOOP.csproj", "{059C5E9A-E144-4B6D-A695-CE096A1B5E73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kivetel", "Kivetel\Kivetel.csproj", "{BCB32F80-0B65-40B1-8307-A1030536270C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{059C5E9A-E144-4B6D-A695-CE096A1B5E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{059C5E9A-E144-4B6D-A695-CE096A1B5E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{059C5E9A-E144-4B6D-A695-CE096A1B5E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB32F80-0B65-40B1-8307-A1030536270C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB32F80-0B65-40B1-8307-A1030536270C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB32F80-0B65-40B1-8307-A1030536270C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB32F80-0B65-40B1-8307-A1030536270C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
